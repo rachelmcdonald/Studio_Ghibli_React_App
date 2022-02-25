@@ -1,38 +1,69 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+body {
+  background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700116389.jpg');
+}
+
+.container {
+  margin: auto;
+  width: 60%;
+  border: 5px solid #fff;
+  padding: 10px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
   text-align: center;
+  font-size: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  color: #fff;
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
+  font-family: 'Assistant', sans-serif;
   color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  border:3px #fff solid;
+  background-color: rgb(158, 210, 218);
+  border-radius: 6px;
+  width : 100%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff; 
+  font-family: 'Indie Flower', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  border:3px rgb(138, 239, 255) solid;
+  background: white;
+  color: rgb(138, 239, 255);
+  transition: .5s;
+  cursor: pointer;
 }
+
+li {
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+  list-style: none;
+}
+
+.key {
+  color:rgb(138, 239, 255);
+}
+
