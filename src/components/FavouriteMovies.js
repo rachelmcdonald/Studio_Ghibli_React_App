@@ -8,7 +8,7 @@ const FavouriteMovies = ({ movies, onMovieSelected }) => {
                 {favouriteMovies.map(movie => {
                     return (
                         <li key={movie.title}>
-                           &#128150; {movie.title}
+                           &#128150; {movie.title} <span className="key">- {movie.release_date}</span>
                         </li>
                     )
                 })}
